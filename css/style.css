@@ -1,0 +1,177 @@
+/*Estilos Generales*/
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*-------------------PAGINA INICIAL-----------------------*/
+
+/*--------------DARK MODE------------------*/
+.darkModeBody{
+background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+.darkModeSection{
+background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+    color: white;
+}
+
+.darkModePart{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    color: white;
+    transition-duration: 1s;
+    transition-property: background;
+}
+
+.show{
+    visibility: show;
+    transition-duration: 1s;
+    transition-property: background;
+}
+.hide{
+    visibility: hidden;
+    
+    transition-duration: 1s;
+        transition-property: background;
+}
+
+
+/*--------------FIN DEL DARK MODE------------------*/
+
+/*Estilos de la barra superior*/
+.cabecera{
+background-color: white;
+border-bottom: 1px solid #646464;
+left: 0;
+width: 100%;
+
+}
+body header nav{
+    position: fixed;
+    width: 90%;
+    top: 0rem;
+    left: 5%;
+    height:7rem;
+    display: block;
+    z-index: 4;
+}
+body header nav .row .col img{
+    width: 10rem;
+    margin-top: 0.4rem;
+    z-index: 2;
+}
+body header nav .row .list {
+    height:7rem;
+}
+body header nav .row .list ul li a:hover{
+    text-decoration: overline;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+/*Estilos de las secciones*/
+
+body section .container .row .col img:hover{
+    transition-duration:.4s; 
+}
+body section .container .row .col img{
+    border-radius: 40px;
+    padding: 10px 0 ;
+}
+
+body section .container .row .texto-alternativo{
+height: 24rem;
+padding: 10% 1%;
+}
+
+/* Botón Flotante  dark mode */
+body .boton-flotante{
+    position: fixed;
+    display: block;
+    bottom: 3rem;
+    right: 1rem;
+    z-index: 10;
+    background-color: white;
+}
+body .boton-flotante i img{
+    width: 80%;
+    padding-top: 10%;
+}
+
+
+/*Primera Sección */
+
+body section .primer_banner{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    margin-top: 9rem;
+    border-radius: 10px;
+    color: #252525;
+}
+
+/*Segundo Banner*/
+body section .segundo_banner{
+    background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+    border-radius: 10px;
+    color: #252525;
+}
+
+
+
+/*Tercer Banner*/
+body section .tercer_banner{
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;
+    border-radius: 10px;
+    color: #252525;
+}
+
+
+
+/*Footer Estilos*/
+body footer{
+    border-top: 1px solid #9F9F9F;
+    display: block;
+    bottom: 0px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+body footer .derechos{
+    background-color: #303030;
+    color: #FFFFFF;
+    font-size: 12px;
+    position: fixed;
+    display: block;
+    bottom: -1rem;
+    z-index: 10;
+    width: 100%;  
+}
+body footer .derechosCopy{
+    background-color: #303030;
+    color: #FFFFFF;
+    font-size: 12px;
+    bottom: 0rem;
+    z-index: 10;
+    width: 100%;  
+}
+
+body footer .row .redes ul li img{
+    width: 20px;
+}
+
+
+/*--------------PAGINA DE ESTILOS DE TATUAJE------------------*/
+
+
+.seccion_inicial{
+    margin-top: 10rem;
+    border-bottom: 1px solid #C0C0C0;
+    
+}
+.seccion_inicial .carta .card .card-image span{
+    background-color:#A0A0A0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+/*--------------PAGINA DE ESTILO REALISTA------------------*/
